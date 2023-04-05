@@ -1,9 +1,9 @@
 import { useState, useRef } from 'react';
 import styles from './Form.module.css';
 
-function Form() {
+function Form = () => {
   const inputRef = useRef(null);
-  const [state, setState] = useState('');
+  const [state, setState] = useState(''); //юз стейт объявляется обычно раньше рефы
 
   const formSubmitHandler = function(e) {
     e.preventDefault();
