@@ -1,0 +1,33 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.label {
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+
+.input {
+    margin-bottom: 10px;
+    height: 30px;
+    font-size: 24px;
+    border: 2px solid teal;
+    border-radius: 8px;
+    outline-color: lightblue;
+    padding: 0 10px;
+}
+
+.button {
+    cursor: pointer;
+    background-color: teal;
+    height: 40px;
+    border-radius: 8px;
+    width: 60%;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+}
