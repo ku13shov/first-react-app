@@ -31,3 +31,11 @@
     text-transform: uppercase;
     border: none;
 }
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
