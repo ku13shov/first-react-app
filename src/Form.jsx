@@ -19,7 +19,7 @@ const Form = () => {
     <form className={styles.form} onSubmit={formSubmitHandler}>
       <label className={styles.label} htmlFor="color">Enter color name</label>
       {/* <input className={styles.input} type="text" name="color" style={{backgroundColor: inputColor}} ref={inputRef} placeholder='orange' /> */}
-      <input className={inputClassNames} type="text" name="color" ref={inputRef} placeholder='orange' />
+      <input className={inputClassNames} type="text" name="color" ref={inputRef} placeholder='red, orange or green' />
       <button className={styles.button} type="submit">Submit</button>
     </form>
   );
