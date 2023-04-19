@@ -17,6 +17,18 @@
     border-radius: 8px;
     outline-color: lightblue;
     padding: 0 10px;
+
+    &.red {
+        background-color: red;
+    }
+
+    &.orange {
+        background-color: orange;
+    }
+
+    &.green {
+        background-color: green;
+    }
 }
 
 .button {
@@ -30,12 +42,4 @@
     font-size: 20px;
     text-transform: uppercase;
     border: none;
-}
-
-.red {
-    background-color: red;
-}
-
-.orange {
-    background-color: orange;
 }
